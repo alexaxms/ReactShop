@@ -1,7 +1,7 @@
 import * as React from "react";
 import {IProduct} from "./ProductsData";
-import Tabs from "./Tabs";
-import withLoader from "./withLoader";
+import Tabs from "../Tabs";
+import withLoader from "../withLoader";
 
 interface IProps {
     product?: IProduct;

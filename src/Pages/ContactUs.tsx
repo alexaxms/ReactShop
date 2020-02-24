@@ -1,5 +1,5 @@
 import * as React from "react";
-import {Form, ISubmitResult, IValues, minLength, required} from "./Form";
+import {Form, ISubmitResult, IValues, minLength, required} from "../Common/Form";
 
 interface IProps {
     onSubmit: (values: IValues) => Promise<ISubmitResult>;

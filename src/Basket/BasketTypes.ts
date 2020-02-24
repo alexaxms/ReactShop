@@ -1,4 +1,4 @@
-import { IProduct } from "./ProductsData";
+import { IProduct } from "../Product/ProductsData";
 
 export enum BasketActionTypes {
     ADD = "BASKET/ADD"

@@ -3,7 +3,7 @@ import {IProduct} from "./ProductsData";
 import {RouteComponentProps} from "react-router-dom";
 import "url-search-params-polyfill";
 import {connect} from "react-redux";
-import {IApplicationState} from "./Store";
+import {IApplicationState} from "../Store";
 import {getProducts} from "./ProductsActions";
 import ProductsList from "./ProductsList";
 

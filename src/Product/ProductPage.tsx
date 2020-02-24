@@ -1,13 +1,11 @@
 import * as React from "react";
 import {Prompt, RouteComponentProps} from "react-router-dom";
 import {IProduct} from "./ProductsData";
-import Product from "./Product";
 import {connect} from "react-redux";
-import {addToBasket} from "./BasketActions";
+import {addToBasket} from "../Basket/BasketActions";
 import {getProduct} from "./ProductsActions";
-import {IApplicationState} from "./Store";
-
-type Props = RouteComponentProps<{ id: string }>;
+import {IApplicationState} from "../Store";
+import Product from "./Product";
 
 interface IProps extends RouteComponentProps<{ id: string }> {
     addToBasket: typeof addToBasket;

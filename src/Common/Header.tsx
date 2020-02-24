@@ -1,9 +1,9 @@
 import * as React from "react";
 import {NavLink, RouteComponentProps, withRouter} from "react-router-dom";
 import "url-search-params-polyfill";
-import BasketSummary from "./BasketSummary";
+import BasketSummary from "../Basket/BasketSummary";
 import {useSelector} from "react-redux";
-import logo from "./logo.svg";
+import logo from "../logo.svg";
 
 const Header: React.FC<RouteComponentProps> = (props) => {
     const [search, setSearch] = React.useState("");

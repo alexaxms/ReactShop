@@ -4,14 +4,14 @@ import {Suspense} from "react";
 import {BrowserRouter as Router, Redirect, Route, RouteComponentProps, Switch} from "react-router-dom";
 import {CSSTransition, TransitionGroup} from "react-transition-group";
 
-import Header from "./Header";
-import ProductsPage from "./ProductsPage";
-import ProductPage from "./ProductPage";
-import LoginPage from "./LoginPage";
+import Header from "./Common/Header";
+import ProductsPage from "./Product/ProductsPage";
+import ProductPage from "./Product/ProductPage";
+import LoginPage from "./Pages/LoginPage";
 import NotFoundPage from "./NotFoundPage";
-import ContactUsPage from "./ContactUsPage";
+import ContactUsPage from "./Pages/ContactUsPage";
 
-const AdminPage = React.lazy(() => import("./AdminPage"));
+const AdminPage = React.lazy(() => import("./Pages/AdminPage"));
 
 
 const RoutesWrap: React.FC = () => {
