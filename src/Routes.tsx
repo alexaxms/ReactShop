@@ -1,14 +1,7 @@
 import * as React from "react";
-
 import {Suspense} from "react";
 
-import {
-    BrowserRouter as Router,
-    Redirect,
-    Route,
-    RouteComponentProps,
-    Switch
-} from "react-router-dom";
+import {BrowserRouter as Router, Redirect, Route, RouteComponentProps, Switch} from "react-router-dom";
 import {CSSTransition, TransitionGroup} from "react-transition-group";
 
 import Header from "./Header";
